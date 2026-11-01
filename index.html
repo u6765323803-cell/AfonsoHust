@@ -335,7 +335,7 @@ footer .line{color:var(--muted); font-weight:600; margin:0 0 18px}
       <li><a href="#memes">Memes</a></li>
       <li><a href="#game">Game</a></li>
       <li><a href="#community">Community</a></li>
-      <li><a class="btn btn-yellow buy-link" data-link="pumpfun" href="#">BUY <span data-ticker>$TICKER</span></a></li>
+      <li><a class="btn btn-yellow buy-link" data-link="buy" href="#">BUY <span data-ticker>$TICKER</span></a></li>
     </ul>
   </div>
 </nav>
@@ -368,7 +368,7 @@ footer .line{color:var(--muted); font-weight:600; margin:0 0 18px}
     <p class="tick"><span data-ticker>$TICKER</span></p>
     <p class="sub">Smashed a phone with a banana. Accidentally launched a coin. No idea what I'm doing. Neither do you.</p>
     <div class="hero-ctas">
-      <a class="btn btn-yellow buy-link" data-link="pumpfun" href="#">BUY ON PUMP.FUN</a>
+      <a class="btn btn-yellow buy-link" data-link="buy" href="#">BUY ON PUMP.FUN</a>
       <a class="btn btn-outline" data-link="x" href="#">JOIN THE JUNGLE</a>
     </div>
     <div class="ca-box">
@@ -407,7 +407,7 @@ footer .line{color:var(--muted); font-weight:600; margin:0 0 18px}
       <div class="step reveal-item"><span class="ico">🍌</span><h3>4. Swap for <span data-ticker>$TICKER</span></h3><p>Choose an amount, confirm, welcome to the jungle.</p></div>
     </div>
     <div class="center-cta">
-      <a class="btn btn-yellow buy-link" data-link="pumpfun" href="#">BUY ON PUMP.FUN</a>
+      <a class="btn btn-yellow buy-link" data-link="buy" href="#">BUY ON PUMP.FUN</a>
     </div>
   </div>
 </section>
@@ -525,13 +525,14 @@ footer .line{color:var(--muted); font-weight:600; margin:0 0 18px}
    =================================================================== */
 const CONFIG = {
   ticker: "$HUST",
-  contract: "[CONTRACT ADDRESS]",                 // paste the Solana contract address
+  contract: "38GAyYiB7qv355B1r2Jfv3sPobkBDw4TRitSjemSpump",
   supply: "1,000,000,000",
   lockedSupply: "4% Locked",                      // 40,000,000 tokens, time-locked on-chain
   links: {
+    buy:         "https://pump.fun/coin/38GAyYiB7qv355B1r2Jfv3sPobkBDw4TRitSjemSpump",
     pumpfun:     "https://pump.fun/profile/AfonsoHust",
     x:           "https://x.com/AfonsoHust_Of",
-    dexscreener: "[DEXSCREENER LINK]"             // e.g. "https://dexscreener.com/solana/..."
+    dexscreener: "https://dexscreener.com/solana/38GAyYiB7qv355B1r2Jfv3sPobkBDw4TRitSjemSpump"
   }
 };
 /* =================================================================== */
